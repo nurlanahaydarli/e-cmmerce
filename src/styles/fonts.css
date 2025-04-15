@@ -1,0 +1,45 @@
+@font-face {
+    src: url('/assets/fonts/Inter_18pt-Black.ttf');
+    font-family: 'Inter_18pt';
+    font-weight: 900;
+}
+@font-face {
+    src: url('/assets/fonts/Inter_18pt-ExtraBold.ttf');
+    font-family: 'Inter_18pt';
+    font-weight: 800;
+}
+@font-face {
+    src: url('/assets/fonts/Inter_18pt-Bold.ttf');
+    font-family: 'Inter_18pt';
+    font-weight: 700;
+}
+@font-face {
+    src: url('/assets/fonts/Inter_18pt-SemiBold.ttf');
+    font-family: 'Inter_18pt';
+    font-weight: 600;
+}
+@font-face {
+    src: url('/assets/fonts/Inter_18pt-Medium.ttf');
+    font-family: 'Inter_18pt';
+    font-weight: 500;
+}
+@font-face {
+    src: url('/assets/fonts/Inter_18pt-Regular.ttf');
+    font-family: 'Inter_18pt';
+    font-weight: 400;
+}
+@font-face {
+    src: url('/assets/fonts/Inter_18pt-Light.ttf');
+    font-family: 'Inter_18pt';
+    font-weight: 300;
+}
+@font-face {
+    src: url('/assets/fonts/Inter_18pt-ExtraLight.ttf');
+    font-family: 'Inter_18pt';
+    font-weight: 200;
+}
+@font-face {
+    src: url('/assets/fonts/Inter_18pt-ExtraLight.ttf');
+    font-family: 'Inter_18pt';
+    font-weight: 100;
+}

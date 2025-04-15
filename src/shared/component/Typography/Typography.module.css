@@ -1,0 +1,91 @@
+.h1 {
+    font-size: 34px;
+    line-height: 44px;
+}
+
+.h2 {
+    font-size: 24px;
+    line-height: 32px;
+}
+
+.h3 {
+    font-size: 20px;
+    line-height: 28px;
+}
+
+.h4 {
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.h5 {
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.h6 {
+    font-size: 12px;
+    line-height: 16px;
+}
+.text_large{
+    font-size: 24px;
+    line-height: 32px;
+}
+.text_medium{
+    font-size: 16px;
+    line-height: 24px;
+}
+.text_small{
+    font-size: 14px;
+    line-height: 20px;
+}
+.text_mini{
+    font-size: 12px;
+    line-height: 16px;
+}
+.text_tiny{
+    font-size: 10px;
+    line-height: 12px;
+}
+
+.light {
+    font-weight: 300 !important;
+}
+.regular {
+    font-weight: 400 !important;
+}
+.medium {
+    font-weight: 500 !important;
+}
+.semi-bold {
+    font-weight: 600 !important;
+}
+.bold{
+    font-weight: 700!important;
+}
+.white{
+    color: #fff;
+}
+.primary-200{
+    color: var(--primary-200);
+}
+.primary-100{
+    color: var(--primary-100);
+}
+.primary-80{
+    color: var(--primary-80);
+}
+.primary-70{
+    color: var(--primary-70);
+}
+.left {
+    text-align: left;
+}
+
+.center {
+    text-align: center;
+}
+
+.right {
+    text-align: right;
+}

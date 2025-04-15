@@ -1,0 +1,99 @@
+@import url('./reset.css');
+@import url('./fonts.css');
+
+*,body{
+    font-family: 'Inter', sans-serif;
+}
+.search_box{
+    max-width: 840px;
+    width: 100%;
+}
+.search_box .ant-input-affix-wrapper{
+    padding: 20px 18px!important;
+    border: 1px solid #D1D1D1!important;
+    border-radius: 12px!important;
+}
+
+.ant-carousel .slick-dots li{
+    width: 32px!important;
+}
+
+.ant-carousel .slick-prev,
+.ant-carousel .slick-next{
+    width: 48px;
+    height: 48px;
+    background-color: #fff;
+    display: flex!important;
+    color: #1378F5!important;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    opacity: 1;
+}
+
+.ant-carousel .slick-prev::after,
+.ant-carousel .slick-next::after{
+    position: unset!important;
+    width: 14.313708px;
+    height: 13.313708px;
+    border-inline-start-width: 3px;
+    border-block-start-width: 3px;
+}
+
+.product_carousel .ant-carousel .slick-prev,
+.product_carousel .ant-carousel .slick-next{
+    background-color: #DCEBFE;
+    top: -62px;
+    left: auto;
+}
+.product_carousel .ant-carousel .slick-next{
+    right: 0;
+}
+.product_carousel .ant-carousel .slick-prev{
+    right: 62px;
+}
+.custom_tab .ant-tabs-top >.ant-tabs-nav::before{
+    border: none!important;
+}
+.custom_tab .ant-tabs-nav{
+    margin-bottom: 0!important;
+}
+.custom_tab .ant-tabs-nav-list{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 16px;
+}
+.custom_tab .ant-tabs .ant-tabs-tab{
+    border-radius: 32px;
+    margin-left: 0!important;
+    padding: 10px 24px;
+    color: #67809F;
+    background-color: #DCEBFE;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 114.99999999999999%;
+    text-transform: uppercase;
+
+}
+.custom_tab .ant-tabs-tab.ant-tabs-tab-active{
+    background-color: #1378F5!important;
+    color: #fff!important;
+}
+.custom_tab .ant-tabs-tab.ant-tabs-tab-active:after,
+.custom_tab .ant-tabs-tab.ant-tabs-tab-active:before{
+    content: unset!important;
+}
+.ant-tabs .ant-tabs-ink-bar {
+    background-color: transparent;
+}
+.custom_tab .ant-tabs .ant-tabs-tab.ant-tabs-tab-active .ant-tabs-tab-btn{
+    color: #fff!important;
+}
+.custom_tab .ant-tabs-content-holder{
+    display: none!important;
+}
+.custom_tab .ant-tabs-tab-active {
+    border-bottom: none !important;
+    box-shadow: none !important;
+}
